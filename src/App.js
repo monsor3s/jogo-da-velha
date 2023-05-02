@@ -6,7 +6,7 @@ import "./settings/colors.css"
 function App() {
   return (
     <div className="App">
-      <a href="#" className="action">Sobre</a>
+      <a href="#to-do" className="action">Sobre</a>
     </div>
   );
 }
