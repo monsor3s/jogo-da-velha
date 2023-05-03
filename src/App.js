@@ -1,11 +1,8 @@
-import "./App.css";
-
+import Sobre from "./objects/Sobre";
 
 function App() {
   return (
-    <div className="App">
-      <a href="#to-do" className="action">Sobre</a>
-    </div>
+    <Sobre />
   );
 }
 
