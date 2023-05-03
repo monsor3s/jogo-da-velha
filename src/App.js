@@ -1,7 +1,5 @@
 import "./App.css";
-import "./generic/reset.css"
-import "./elements/index.css"
-import "./settings/colors.css"
+
 
 function App() {
   return (
