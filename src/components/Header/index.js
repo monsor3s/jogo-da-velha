@@ -1,8 +1,9 @@
 import React from 'react'
 import "./styles.css"
-import MenuToggle from '../../objects/MenuToggle';
-import Sobre from '../../objects/Sobre';
+
 import Logo from '../../objects/Logo';
+import Sobre from '../../objects/Sobre';
+import Menu from '../../objects/Menu';
 
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
       <Logo />
       <div className="container-header">
       <Sobre />
-      <MenuToggle />
+      <Menu />
       </div>
     </header>
   )
