@@ -8,11 +8,9 @@ import Menu from '../../objects/Menu';
 const Header = () => {
   return (
     <header className="main-header">
-      <Logo />
-      <div className="container-header">
+      <Logo />   
       <Sobre />
       <Menu />
-      </div>
     </header>
   )
 }
