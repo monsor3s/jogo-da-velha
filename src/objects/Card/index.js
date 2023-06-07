@@ -1,14 +1,11 @@
 import React from 'react'
-import Circulo from '../Circulo';
-import Xis from '../Xis';
 
 import "./styles.css"
 
-const Card = () => {
+const Card = ({children}) => {
   return (
     <article className="card">
-      {/* <Circulo />
-      <Xis /> */}
+      {children}
     </article>
   )
 }
