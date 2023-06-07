@@ -7,8 +7,8 @@ import "./styles.css"
 const Card = () => {
   return (
     <article className="card">
-      <Circulo />
-      <Xis />
+      {/* <Circulo />
+      <Xis /> */}
     </article>
   )
 }
